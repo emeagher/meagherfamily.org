@@ -17,4 +17,4 @@ jobs:
       - name: Build docker images
         run: docker build -t local .
       - name: Run tests
-        run: docker run -it -v ${PWD}:/docs local gh-deploy
+        run: docker run -t -v ${PWD}:/docs local gh-deploy
