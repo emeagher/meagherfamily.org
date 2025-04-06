@@ -1,0 +1,1 @@
+<iframe width="800" height="1200" frameborder="0" src="https://ambientweather.net/devices/public/68cd1180835dbb88402ee5afc91155b6?embed=true"></iframe>
