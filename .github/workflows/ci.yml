@@ -16,5 +16,5 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - name: Build docker images
         run: docker build -t local .
-      - name: Run tests
-        run: docker run -t -v ${PWD}:/docs local gh-deploy
+      - name: Deploy Site
+        run: docker run -t -v ${PWD}:/docs local gh-deploy --force
