@@ -7,7 +7,7 @@ Build Docker image:
 
 Build and host site locally:  
 `docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material`  
-Point your browser at http://localhost:8000 to view the site
+Point your browser at <http://localhost:8000> to view the site
 
 Deploy Site:  
 `docker run --rm -it -p 8000:8000 -v ${PWD}:/docs -v ~/.ssh:/root/.ssh squidfunk/mkdocs-material gh-deploy`
