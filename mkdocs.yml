@@ -25,9 +25,7 @@ site_author: Ed Meagher
 site_url: https://www.meagherfamily.org
 
 # Repository
-repo_name: ed_meagher/meagher-containers
-repo_url: https://bitbucket.org/ed_meagher/meagher-containers
-edit_uri: 'src/master/meagherfamily/mkdocs/docs'
+repo_url: https://github.com/emeagher/meagherfamily.org/
 
 # Copyright
 copyright: 'Copyright &copy; 2023 Ed Meagher'
