@@ -10,4 +10,5 @@ Build and host site locally:
 Point your browser at <http://localhost:8000> to view the site
 
 Deploy Site:  
-`docker run --rm -it -p 8000:8000 -v ${PWD}:/docs -v ~/.ssh:/root/.ssh squidfunk/mkdocs-material gh-deploy`
+~~`docker run --rm -it -p 8000:8000 -v ${PWD}:/docs -v ~/.ssh:/root/.ssh squidfunk/mkdocs-material gh-deploy`~~  
+Site is deployed automatically by a Github Action
