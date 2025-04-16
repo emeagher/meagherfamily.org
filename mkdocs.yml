@@ -86,6 +86,9 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       type: timeago
+  - git-committers:
+      repository: emeagher/meagherfamily.org
+      branch: main
 
 # Page tree
 nav:
